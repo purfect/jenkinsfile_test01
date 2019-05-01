@@ -1,4 +1,4 @@
-def deploy_date = (new Date()).format("YYYYMMdd-hh:mm", TimeZone.getTimeZone('localtime'))
+def deploy_date = (new Date()).format("YYYYMMdd-hh:mm:ss", TimeZone.getTimeZone('localtime'))
 pipeline {
     agent any
 
